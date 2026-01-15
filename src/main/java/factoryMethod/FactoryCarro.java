@@ -1,3 +1,5 @@
+package factoryMethod;
+
 public class FactoryCarro {
     public Carro criarCarro(String tipo, String cor, int velocidadeMaxima) {
         switch (tipo.toLowerCase()) {
