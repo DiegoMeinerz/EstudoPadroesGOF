@@ -1,3 +1,4 @@
+package factoryMethod;
 public class FactoryMain {
     public static void main(String[] args) {
         FactoryCarro factoryCarro = new FactoryCarro();
