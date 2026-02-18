@@ -13,8 +13,10 @@ public class FactoryCliente {
         
         }
 
-        // Carro carro = factory.criarCarro();
-        // Motocicleta motocicleta = factory.criarMotocicleta();
+        if (factory == null) {
+            return null;
+        }
+
         Veiculo veiculo = new Veiculo(factory);
         veiculo.exibirInfo();
 
